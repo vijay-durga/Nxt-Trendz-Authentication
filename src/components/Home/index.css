@@ -1,0 +1,43 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.home-desktop-img {
+  height: 400px;
+  width: 550px;
+  margin-left: 15px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 700px;
+  height: 600px;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+
+.home-description {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.shop-now-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  font-family: 'Roboto';
+  border-radius: 5px;
+}
